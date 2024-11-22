@@ -1,0 +1,35 @@
+name: todos_app
+description: "A Task management app"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  # A package that helps to implement value based equality without needing to explicitly override == and hashCode.
+  equatable: ^2.0.7
+  # A bloc state management package.
+  flutter_bloc: ^8.1.6
+  # Progress Circle
+  syncfusion_flutter_gauges: ^27.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto/Roboto-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Roboto/Roboto-Bold.ttf
+          weight: 600
+        - asset: assets/fonts/Roboto/Roboto-Black.ttf
+          weight: 900

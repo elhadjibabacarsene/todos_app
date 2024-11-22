@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Acheter des courses",
+      "description": "Acheter du lait, du pain et des œufs au supermarché",
+      "isCompleted": false
+    },
+    {
+      "id": 2,
+      "title": "Faire du sport",
+      "description": "30 minutes de jogging dans le parc",
+      "isCompleted": false
+    },
+    {
+      "id": 3,
+      "title": "Réviser le code",
+      "description": "Relire le projet Flutter pour l'entretien technique",
+      "isCompleted": true
+    },
+    {
+      "id": 4,
+      "title": "Appeler maman",
+      "description": "Lui souhaiter un bon anniversaire",
+      "isCompleted": true
+    }
+  ]
+}
